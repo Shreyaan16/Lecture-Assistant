@@ -1,10 +1,15 @@
+# Core Dependencies
+streamlit
 google-generativeai
 pdfplumber
 python-pptx
 python-docx
-torch
-spacy
-numpy
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.2
+spacy==3.7.2
+thinc==8.2.1
+numpy==1.23.5
 transformers
 tokenizers
 tqdm
@@ -13,9 +18,9 @@ langchain
 langchain-google-genai
 python-dotenv
 ctransformers
-streamlit
 duckduckgo-search
 langchain-community
 yt_dlp
-# Installing the specific spaCy model
+
+# Install spaCy model explicitly
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
