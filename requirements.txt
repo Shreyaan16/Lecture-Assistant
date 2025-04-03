@@ -1,26 +1,31 @@
-# Core Dependencies
+# Core dependencies
 streamlit
 google-generativeai
 pdfplumber
 python-pptx
 python-docx
-torch==2.0.1
-torchvision==0.15.2
-torchaudio==2.0.2
-spacy==3.7.2
-thinc==8.2.1
 numpy==1.23.5
-transformers
-tokenizers
 tqdm
 Pillow
+python-dotenv
+duckduckgo-search
+yt_dlp
+
+# PyTorch (CPU version for Streamlit Cloud)
+torch==2.6.0
+torchvision==0.15.2
+torchaudio==2.0.2
+--index-url https://download.pytorch.org/whl/cpu
+
+# NLP & Transformers
+spacy==3.7.2
+thinc==8.2.1
+transformers==4.50.2
+tokenizers
+ctransformers
 langchain
 langchain-google-genai
-python-dotenv
-ctransformers
-duckduckgo-search
 langchain-community
-yt_dlp
 
 # Install spaCy model explicitly
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
