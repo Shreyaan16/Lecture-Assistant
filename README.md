@@ -64,7 +64,7 @@ streamlit run app.py
 A video demonstration showcasing the tool's features is available [here](#). (Add link if available)
 
 ## 📜 License
-This project is licensed under the MIT License.
+This project should have been licensed under the MIT License but I am lazy.
 
 ---
 Contributions and feedback are welcome! 🚀
