@@ -21,11 +21,14 @@ Lecture Assistant is an AI-powered tool designed to help students quickly grasp 
 ### 🃏 Flashcards
 - Generates flashcards for different difficulty levels based on user selection.
 
+### 🗨️ QNA Chatbot
+- Has memory of previous prompts and answers to help the user clear his/her doubts
+
 ### 🔗 Reference Materials
 - Fetches **YouTube videos** and **relevant reference links** using **LangChain tools**.
 
-### 📝 Multiple-Answer Question (MAQ) Exam
-- Generates an MAQ-based exam using **Gemini** based on the selected difficulty level.
+### 📝 Multiple-Correct Question (MCQ) Exam
+- Generates an MCQ-based exam using **Gemini** based on the selected difficulty level.
 
 ## 🛠️ Tech Stack
 - **NLP & NER**: spaCy
