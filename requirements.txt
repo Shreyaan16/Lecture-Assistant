@@ -11,11 +11,10 @@ python-dotenv
 duckduckgo-search
 yt_dlp
 
-# PyTorch (CPU version for Streamlit Cloud)
+# PyTorch (removing explicit CPU index URL)
 torch==2.6.0
 torchvision==0.15.2
 torchaudio==2.0.2
---index-url https://download.pytorch.org/whl/cpu
 
 # NLP & Transformers
 spacy==3.7.2
@@ -27,5 +26,5 @@ langchain
 langchain-google-genai
 langchain-community
 
-# Install spaCy model explicitly
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+# Install spaCy Model
+spacy[en_core_web_sm] @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
