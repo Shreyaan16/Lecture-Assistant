@@ -1,3 +1,6 @@
+# Update pip first (to prevent version issues)
+pip==25.0.1
+
 # Core dependencies
 streamlit
 google-generativeai
@@ -11,7 +14,7 @@ python-dotenv
 duckduckgo-search
 yt_dlp
 
-# PyTorch (removing explicit CPU index URL)
+# PyTorch (no explicit CPU index URL)
 torch==2.6.0
 torchvision==0.15.2
 torchaudio==2.0.2
@@ -25,6 +28,3 @@ ctransformers
 langchain
 langchain-google-genai
 langchain-community
-
-# Install spaCy Model
-spacy[en_core_web_sm] @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
