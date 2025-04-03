@@ -1,30 +1,27 @@
-# Update pip first (to prevent version issues)
-pip==25.0.1
-
-# Core dependencies
-streamlit
-google-generativeai
-pdfplumber
-python-pptx
-python-docx
+google-generativeai==0.1.0
+pdfplumber==0.9.0
+python-pptx==0.6.21
+python-docx==0.8.11
+torch==2.0.1
+spacy==3.7.1
 numpy==1.23.5
-tqdm
-Pillow
-python-dotenv
-duckduckgo-search
-yt_dlp
+transformers==4.31.0
+tokenizers==0.13.3
+tqdm==4.65.0
+pytesseract==0.3.10
+Pillow==9.5.0
+langchain==0.0.304
+langchain-google-genai==0.0.2
+python-dotenv==1.0.0
+openai==0.27.8
+googlesearch-python==1.1.0
+ctransformers==0.2.10
+streamlit==1.25.0
+duckduckgo-search==0.8.7
+langchain-community==0.0.3
+yt_dlp==2023.7.6
 
-# PyTorch (no explicit CPU index URL)
-torch==2.6.0
-torchvision==0.15.2
-torchaudio==2.0.2
 
-# NLP & Transformers
-spacy==3.7.2
-thinc==8.2.1
-transformers==4.50.2
-tokenizers
-ctransformers
-langchain
-langchain-google-genai
-langchain-community
+
+
+
