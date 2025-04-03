@@ -22,9 +22,14 @@ from langchain_community.tools import DuckDuckGoSearchResults
 import streamlit.components.v1 as components
 import ast
 import warnings
+import spacy.cli
 
-# import subprocess
-# subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
+# Ensure spaCy model is downloaded
+try:
+    spacy.load("en_core_web_sm")
+except OSError:
+    spacy.cli.download("en_core_web_sm")
+    spacy.load("en_core_web_sm")
 
 # Ignore all warnings
 warnings.filterwarnings('ignore')
@@ -1652,7 +1657,7 @@ def main():
                                 st.markdown(f'<p class="meta-info">👤 {video["channel"]} | ⏱️ {video["duration"]} | 👁️ {video["views"]:,}</p>', 
                                         unsafe_allow_html=True)
                                 
-                                # Play button
+                                # Play button tab
                                 if st.button("▶️ Play", key=f"play_{i}", use_container_width=True):
                                     st.session_state.selected_video = video
                                     st.rerun()
