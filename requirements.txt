@@ -9,13 +9,11 @@ numpy
 transformers
 tokenizers
 tqdm
-pytesseract
 keyboard
 Pillow
 langchain
 langchain-google-genai
 python-dotenv
-openai
 googlesearch-python
 ctransformers   
 streamlit
