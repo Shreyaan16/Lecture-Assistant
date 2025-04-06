@@ -63,9 +63,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 📽️ Video Demo
-A video demonstration showcasing the tool's features is available [here](#). (Add link if available)
-
 ## 📜 License
 This project should have been licensed under the MIT License but I am lazy.
 
